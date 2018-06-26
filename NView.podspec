@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-111
+Just a viwe that appear in top fdfdfsfsdfsf
                        DESC
 
   s.homepage         = 'https://github.com/vladaccess/NView'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
 
   s.source           = { :git => 'https://github.com/vladaccess/NView.git', :tag => s.version.to_s }
-   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 #s.ios.deployment_target = '8.0'
 
