@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vlad' => 'vladaccess@outlook.com' }
-  s.source           = { :git => 'https://github.com/vladaccess/NView.git', :tag => 'v0.1.0' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/vladaccess/NView.git', :tag => s.version.to_s }
+   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+#s.ios.deployment_target = '8.0'
 
 s.source_files = 'Source/**/*.{swift}'
 s.frameworks = 'UIKit'
