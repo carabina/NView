@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NView_Example' do
+  pod 'NView', :path => '../'
+
+  target 'NView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
