@@ -1,0 +1,22 @@
+{
+  "name": "NView",
+  "version": "0.1.0",
+  "summary": "A short description of NView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vlad/NView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vlad": "vladaccess@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/Vlad/NView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NView/Classes/**/*"
+}

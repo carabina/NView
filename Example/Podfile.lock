@@ -1,0 +1,16 @@
+PODS:
+  - NView (0.1.0)
+
+DEPENDENCIES:
+  - NView (from `../`)
+
+EXTERNAL SOURCES:
+  NView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NView: e7b31044bf839853df160c404a79a24f72392581
+
+PODFILE CHECKSUM: 712fc495e56dc1b649b97ec650d738fbace9bbc1
+
+COCOAPODS: 1.5.3
