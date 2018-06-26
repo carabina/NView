@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vlad' => 'vladaccess@outlook.com' }
   s.platform     = :ios, '8.0'
+
   s.source           = { :git => 'https://github.com/vladaccess/NView.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
