@@ -1,11 +1,12 @@
 # NView
+Imitate the native Notification Banner for any alert.
 
+> If you use Iphone X make sure `View controller-based status bar appearance` was set to `NO` in your info.plist
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS 7.0+ / Mac OS X 10.9+
+* Xcode 9.0+, Swift 4.0
 
 ## Installation
 
