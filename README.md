@@ -1,9 +1,5 @@
 # NView
 
-[![travis build](https://img.shields.io/travis/USER/REPO.svg?longCache=true&style=for-the-badge)](https://travis-ci.org/vladaccess/NView)
-[![Version](https://img.shields.io/cocoapods/v/NView.svg?longCache=true&style=for-the-badge)](https://cocoapods.org/pods/NView)
-[![License](https://img.shields.io/cocoapods/l/NView.svg?longCache=true&style=for-the-badge)](https://cocoapods.org/pods/NView)
-[![Platform](https://img.shields.io/cocoapods/p/NView.svg?longCache=true&style=for-the-badge)](https://cocoapods.org/pods/NView)
 
 ## Example
 
