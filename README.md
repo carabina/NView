@@ -1,6 +1,6 @@
 # NView
 Imitate the native Notification Banner for any alert.
-[![](https://raw.githubusercontent.com/vladaccess/NView/master/example.png) ](https://raw.githubusercontent.com/vladaccess/NView/master/example.png)
+[![](https://raw.githubusercontent.com/vladaccess/NView/master/example.png | height=100) ](https://raw.githubusercontent.com/vladaccess/NView/master/example.png)
 > If you use Iphone X make sure `View controller-based status bar appearance` was set to `NO` in your info.plist
 
 
