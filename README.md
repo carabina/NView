@@ -31,6 +31,7 @@ titleFont:UIFont
 * The time where RNNotificationView sway on UIView. (4.0)
 duration: TimeInterval
 
+
 ## Author
 
 Vlad, vladaccess@outlook.com
