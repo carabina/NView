@@ -18,18 +18,31 @@ pod 'NView', :git => 'https://github.com/vladaccess/NView.git'
 
 ## Customizing
 You can to create the instance of NotificationView and then setup properties.
-* Icon size. (CGSize(22,22) )
+* Icon size. (*CGSize(22,22)*)
+```swift
 iconSize:CGSize
-* Subtitle text color. (UIColor.white)
+```
+* Subtitle text color. (*UIColor.white*)
+```swift
 subtitleColor:UIColor
-* Title text color. (UIColor.white)
+```
+* Title text color. (*UIColor.white*)
+```swift
 titleColor:UIColor
-* Subtitle font. (UIFont.systemFontOfSize(13)
+```
+* Subtitle font. (*UIFont.systemFontOfSize(13)*)
+```swift
 subtitleFont: UIFont
-* Title font. (UIFont.boldSystemFontOfSize(14))
+```
+* Title font. (*UIFont.boldSystemFontOfSize(14)*)
+```swift
 titleFont:UIFont
-* The time where RNNotificationView sway on UIView. (4.0)
+```
+* The time where *RNNotificationView* sway on *UIView*. (4.0)
+```swift
 duration: TimeInterval
+```
+
 
 ## Author
 
