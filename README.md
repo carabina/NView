@@ -41,7 +41,10 @@ titleFont:UIFont
 * The time where *RNNotificationView* sway on *UIView*. (4.0)
 ```swift
 duration: TimeInterval
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> b89f2297f8db35325927aaf4b8dc4aaae58cd134
 
 
 ## Author
