@@ -16,6 +16,19 @@ it, simply add the following line to your Podfile:
 pod 'NView', :git => 'https://github.com/vladaccess/NView.git'
 ```
 
+## Using
+```swift
+// Creating instance
+let notification = RNNotificationView()
+
+notification.titleFont = UIFont(name: "AvenirNext-Bold", size: 10)!
+notification.titleColor = UIColor.blueColor()
+notification.iconSize = CGSize(width: 46, height: 46) // Optional setup
+notification.show(withImage: nil,
+title: "Title",
+message: "Message")
+```
+
 ## Customizing
 You can to create the instance of NotificationView and then setup properties.
 * Icon size. (*CGSize(22,22)*)
@@ -38,7 +51,7 @@ subtitleFont: UIFont
 ```swift
 titleFont:UIFont
 ```
-* The time where *RNNotificationView* sway on *UIView*. (4.0)
+* The time where *RNNotificationView* stay on *UIView*. (4.0)
 ```swift
 duration: TimeInterval
 ```
