@@ -7,18 +7,16 @@
 //
 
 import UIKit
+import NView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func btnTapped() {
+        NotificationView.show(withImage: UIImage(named:"icon"), title: "This particular icon", message: "It has two lines inside towards the top that looks like a hair line. ", duration: 4, size: CGSize(width: 40, height: 40))
     }
-
 }
 

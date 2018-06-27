@@ -32,7 +32,7 @@ protocol NotificationProtocol {
 
 public struct Notification:NotificationProtocol {
     static let titleFont:UIFont = UIFont.boldSystemFont(ofSize: 14)
-    static let subTitleFont:UIFont = UIFont.boldSystemFont(ofSize: 13)
+    static let subTitleFont:UIFont = UIFont.systemFont(ofSize: 13)
     
     static let animationDuration:TimeInterval = 0.3
     public static let duration:TimeInterval = 5.0
