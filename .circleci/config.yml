@@ -10,12 +10,12 @@ jobs:
     # Specify the Xcode version to use
     macos:
       xcode: "9.0"
+    working_directory: /Users/distiller/project  
     environment:
       FASTLANE_LANE: test
     shell: /bin/bash --login -o pipefail
     steps:
       - checkout
-      - run:  echo "Hi"
       
       - run: bundle install
       - run:
