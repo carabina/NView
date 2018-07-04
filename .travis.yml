@@ -17,5 +17,5 @@ jobs:
   include:
     - stage: test
       script:
-      - pod lib lint
-      - xcodebuild -scheme 'NView' -sdk iphonesimulator CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO test | xcpretty -c
+        - pod lib lint
+        - xcodebuild -scheme 'NView' -sdk iphonesimulator CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO test | xcpretty -c
