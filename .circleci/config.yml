@@ -19,6 +19,6 @@ jobs:
       - run:  echo "Hi"
       
       - run: bundle install
-      - run:
-          name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
+#      - run:
+#          name: Fastlane
+#          command: bundle exec fastlane $FASTLANE_LANE
