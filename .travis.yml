@@ -27,4 +27,5 @@ jobs:
         script: pod trunk push
         skip_cleanup: true
         on:
-          all_branches: true
+          all_branches: true . 
+ 
