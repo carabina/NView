@@ -13,6 +13,7 @@ jobs:
       
     environment:
       FASTLANE_LANE: test
+    shell: /bin/bash --login -o pipefail
     steps:
       - checkout
       - run:  echo "Hi"
