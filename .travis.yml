@@ -1,12 +1,13 @@
+osx_image: xcode9
 language: objective-c
-
-branches:
-  only:
-    - master
-
-podfile: ./Demo/Podfile
-osx_image: xcode8.2
-cache: cocoapods
-
+xcode-project: NView.xcworkspace
+xcode_scheme: NView
+xcode_sdk: iphonesimulator10.3
+# cache: cocoapods
+# podfile: Example/Podfile
+# before_install:
+# - gem install cocoapods # Since Travis is not always on latest version
+# - pod install --project-directory=Example
 script:
-  - xcodebuild -workspace ./Demo/Demo.xcworkspace -scheme Demo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- pod lib lint
+- xcodebuild -scheme 'NView' -sdk iphonesimulator CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO test | xcpretty -c
