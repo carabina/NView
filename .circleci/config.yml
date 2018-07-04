@@ -13,9 +13,4 @@ jobs:
 
     steps:
       - checkout
-
-      # Install CocoaPods
-      - run:
-          name: Install CocoaPods
-          command: pod install
       - run:  echo "Hi"
