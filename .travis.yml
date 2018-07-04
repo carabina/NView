@@ -1,12 +1,6 @@
 language: objective-c
-
+osx_image: xcode9.0
 branches:
   only:
     - master
-
-podfile: ./Demo/Podfile
-osx_image: xcode8.2
-cache: cocoapods
-
-script:
-  - xcodebuild -workspace ./Example/NView.xcworkspace -scheme NView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    
