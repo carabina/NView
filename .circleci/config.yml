@@ -9,8 +9,7 @@ jobs:
 
     # Specify the Xcode version to use
     macos:
-      xcode: "8.3.3"
-      
+      xcode: "9.0"
     environment:
       FASTLANE_LANE: test
     shell: /bin/bash --login -o pipefail
@@ -19,6 +18,6 @@ jobs:
       - run:  echo "Hi"
       
       - run: bundle install
-#      - run:
-#          name: Fastlane
-#          command: bundle exec fastlane $FASTLANE_LANE
+      - run:
+          name: Fastlane
+          command: bundle exec fastlane $FASTLANE_LANE
