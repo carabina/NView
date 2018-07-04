@@ -1,3 +1,7 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
 osx_image: xcode9
 language: objective-c
 xcode-project: NView.xcworkspace
@@ -5,8 +9,8 @@ xcode_scheme: NView
 xcode_sdk: iphonesimulator10.3
 # cache: cocoapods
 # podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
+before_install:
+ - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
 - pod lib lint
