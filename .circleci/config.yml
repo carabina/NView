@@ -10,7 +10,9 @@ jobs:
     # Specify the Xcode version to use
     macos:
       xcode: "8.3.3"
-
+      
+    environment:
+      FASTLANE_LANE: test
     steps:
       - checkout
       - run:  echo "Hi"
