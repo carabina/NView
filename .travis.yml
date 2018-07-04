@@ -9,4 +9,4 @@ osx_image: xcode8.2
 cache: cocoapods
 
 script:
-  - xcodebuild -workspace ./NView/NView.xcworkspace -scheme Demo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace ./Example/NView.xcworkspace -scheme NView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
